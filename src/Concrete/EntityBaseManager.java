@@ -7,7 +7,6 @@ public class EntityBaseManager<T> implements EntityBaseRepository<T>{
 	
 	public void add(T entity) {
 		System.out.println("Added to Database !");
-		
 	}
 
 	@Override
