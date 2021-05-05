@@ -1,9 +1,9 @@
 package Abstract;
 
-public interface EntityBaseRepository {
+public interface EntityBaseRepository<T> {
 
-	void add(Entity entity);
-	void delete(Entity entity);
-	void update(Entity entity);
+	void add(T entity);
+	void delete(T entity);
+	void update(T entity);
 	
 }

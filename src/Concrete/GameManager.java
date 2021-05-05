@@ -1,5 +1,7 @@
 package Concrete;
 
-public class GameManager extends EntityBaseManager{
+import Entities.Game;
+
+public class GameManager extends EntityBaseManager<Game>{
 
 }

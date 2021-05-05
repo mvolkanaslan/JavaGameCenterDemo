@@ -1,24 +1,23 @@
 package Concrete;
 
-import Abstract.Entity;
 import Abstract.EntityBaseRepository;
 
-public class EntityBaseManager implements EntityBaseRepository{
+public class EntityBaseManager<T> implements EntityBaseRepository<T>{
 
 	
-	public void add(Entity entity) {
+	public void add(T entity) {
 		System.out.println("Added to Database !");
 		
 	}
 
 	@Override
-	public void delete(Entity entity) {
+	public void delete(T entity) {
 		System.out.println("Deleted from Database !");
 		
 	}
 
 	@Override
-	public void update(Entity entity) {
+	public void update(T entity) {
 		System.out.println("Update to Database !");	
 	}
 

@@ -3,7 +3,7 @@ package Concrete;
 import Abstract.CustomerIdentityCheckService;
 import Entities.Customer;
 
-public class CustomerManager extends EntityBaseManager{
+public class CustomerManager extends EntityBaseManager<Customer>{
 
 	CustomerIdentityCheckService identityCheckService;
 	

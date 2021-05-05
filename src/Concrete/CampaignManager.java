@@ -1,5 +1,7 @@
 package Concrete;
 
-public class CampaignManager extends EntityBaseManager{
+import Entities.Campaign;
+
+public class CampaignManager extends EntityBaseManager<Campaign>{
 
 }
