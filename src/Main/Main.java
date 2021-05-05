@@ -30,6 +30,7 @@ public class Main {
 		
 		System.out.println("-------------------------------");
 		Game fifa21 =new Game(1, "FIFA 2021", 100);
+		Game Crysis =new Game(1, "Crysis Remastered", 150);
 		
 		purchaseManager.gamePurchase(fifa21, Volkan);
 		purchaseManager.gamePurchase(fifa21, Volkan, blackFriday);
